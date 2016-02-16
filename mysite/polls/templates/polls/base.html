@@ -1,0 +1,20 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Polls App</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+</head>
+<body>
+	<div class="login">
+		
+		<div class="pane">			
+
+			{% block body %}{% endblock %}
+
+		</div>
+
+</div>
+</body>
+</html>
